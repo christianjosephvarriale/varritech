@@ -1,6 +1,6 @@
 Hello Everyone,
 
-This repository contains the code for my varritech website design. All developed in ReactJS and Ruby. If you would like to speak with me about design choices, general questions, or have recommendations, feel free to email me.
+This repository contains the code for parent company Varritech. Submit a PR request if you think you can productively contribute. If you need to contact us, our business email is varritech@gmail.com
 
 Enjoy,
 
