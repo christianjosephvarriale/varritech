@@ -19,8 +19,6 @@ import "../vendors/owl-carousel/owl.carousel.min.css"
 import "../vendors/animate-css/animate.css"
 import "../css/style.css"
 import "../css/responsive.css"
-import $ from 'jquery';
-window.jQuery = $
 
 // require("../js/waypoints.min.js")
 // require("../js/mail.js")
