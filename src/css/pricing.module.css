@@ -1,0 +1,134 @@
+@media (max-width:991px){
+	.singlePricing {
+		margin-bottom: 30px;
+    }
+}
+
+.pricingArea {
+    position: relative;
+    z-index: 1; }
+    .pricingArea:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 75%;
+      background: #f6f6f6;
+      background-image: url(../img/background/pattern2.png);
+      background-repeat: repeat-y;
+      z-index: 0;
+      left: 0;
+      top: 0; }
+    .pricingArea .areaHeading {
+      margin-bottom: 70px; }
+      .pricingArea .areaHeading h4 {
+        margin-bottom: 20px; }
+    .pricingCards:nth-child(1) .singlePricing .pricingIcon:after {
+      background: #fca6a6; }
+    .pricingCards:nth-child(2) .singlePricing .pricingIcon:after {
+      background: #71beb4; }
+    .pricingArea .pricingCards:nth-child(3) .singlePricing .pricingIcon:after {
+      background: #ed92dd; }
+    .pricingArea .pricingCards:nth-child(4) .singlePricing .pricingIcon:after {
+      background: #97d0ee; }
+  
+  .singlePricing {
+    text-align: left;
+    padding: 40px 0 45px;
+    background: #fff;
+    border: 1px solid #edf1f6;
+    padding: 40px 30px;
+    transition: all 300ms linear 0s; }
+    .singlePricing .pricingIcon {
+      width: 150px;
+      height: 95px;
+      text-align: center;
+      margin-bottom: 20px;
+      position: relative;
+      z-index: 1;
+      line-height: 112px; }
+      .singlePricing .pricingIcon:after {
+        content: '';
+        position: absolute;
+        height: 70px;
+        width: 70px;
+        background: #fcefed;
+        border-radius: 100%;
+        left: 0;
+        z-index: -1;
+        top: 0; }
+      .singlePricing .pricingIcon i {
+        font-size: 40px;
+        color: #050817; }
+    .singlePricing .singlePricingContent h5 {
+      font-size: 24px;
+      font-weight: 600;
+      color: #1d1d1d;
+      margin-bottom: 18px;
+      border-bottom: 1px solid #edf1f6;
+      padding-bottom: 12px; }
+    .singlePricing .singlePricingContent h4 {
+      font-size: 24px;
+      font-weight: 600;
+      color: #1d1d1d;
+      margin-bottom: 46px; }
+      .singlePricing .singlePricingContent h4 span {
+        color: #7f7f7f;
+        font-size: 15px;
+        font-weight: 400; }
+      .singlePricing .singlePricingContent h4 .currencyLine {
+        font-size: 24px;
+        color: #7f7f7f;
+        font-weight: 300; }
+    .singlePricing .singlePricingContent ul {
+      border-bottom: 1px solid #edf1f6;
+      padding-bottom: 15px;
+      margin-bottom: 20px; }
+      .singlePricing .singlePricingContent ul li {
+        font-size: 14px;
+        color: #7f7f7f;
+        margin-bottom: 11px; }
+    .singlePricing .singlePricingContent a {
+      font-size: 14px;
+      color: #1d1d1d;
+      border-bottom: 2px solid #edf1f6;
+      font-weight: 600;
+      padding-bottom: 5px; }
+      .singlePricing .singlePricingContent a:hover {
+        border-bottom: 2px solid #fd1c4a;
+        transition: all 300ms linear 0s; }
+  
+        
+
+        .areaHeading {
+          text-align: left; }
+          @media (min-width: 1199px) and (max-width: 1199px) {
+            .areaHeading {
+              padding-top: 30px; } }
+          @media (max-width: 991px) {
+            .areaHeading {
+              margin-top: 0; }
+              .areaHeading h4 br {
+                display: none; }
+              .areaHeading p br {
+                display: none; } }
+          .areaHeading h4 {
+            font-size: 45px;
+            color: #1d1d1d;
+            font-family: "Montserrat", sans-serif;
+            margin-bottom: 40px;
+            line-height: 58px; }
+          .areaHeading h6 {
+            font-size: 16px;
+            color: #333333;
+            font-weight: 400;
+            margin-bottom: 25px; }
+          .areaHeading p {
+            font-size: 14px;
+            font-family: "Montserrat", sans-serif;
+            color: #7f7f7f;
+            margin-bottom: 40px;
+            line-height: 27px;
+            padding-right: 65px; }
+          .areaHeading .mainBtn:hover {
+            border: 1px solid #f84b67; }
+        

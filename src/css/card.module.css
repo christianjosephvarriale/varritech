@@ -1,0 +1,67 @@
+@media (max-width:1199px){
+	.singleService {
+		margin-bottom: 30px;
+    }
+}
+
+.singleService {
+    border: 1px solid #edf1f6;
+    background: #fff;
+    text-align: left;
+    padding: 40px 30px 45px;
+    background-position: right top;
+    background-repeat: no-repeat;
+    transition: all 300ms linear 0s; }
+    .singleService .serviceIcon {
+      width: 170px;
+      height: 95px;
+      text-align: center;
+      margin-bottom: 20px;
+      position: relative;
+      z-index: 1;
+      line-height: 112px; }
+      .circle {
+        content: '';
+        position: absolute;
+        height: 80px;
+        width: 80px;
+        background: #fcefed;
+        border-radius: 100%;
+        left: 0;
+        z-index: -1;
+        top: 0; }
+      .singleService .serviceIcon svg {
+        height: 80px;
+        width: 180px;
+
+        color: #050817; }
+    .singleService .serviceContent h5 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #1d1d1d;
+      margin-bottom: 18px; }
+    .singleService .serviceContent p {
+      line-height: 27px;
+      font-size: 14px;
+      margin-bottom: 35px; }
+    .singleService .serviceContent a {
+      font-size: 14px;
+      color: #1d1d1d;
+      position: relative;
+      font-weight: 500; }
+      .singleService .serviceContent a:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        height: 2px;
+        width: 90px;
+        background: #edf1f6; }
+      .singleService .serviceContent a:hover:after {
+        background: #f84b67;
+        transition: all 300ms linear 0s; }
+  
+  .serviceArea {
+    background: #fff; }
+    .serviceArea .singleService {
+      background: #2b237c; }

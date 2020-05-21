@@ -1,0 +1,91 @@
+.statsToolContainer {
+  background: white; 
+  position: relative; 
+  height: 100px; 
+  z-index: 10000;
+  width: 100px; 
+  border-radius: 50%;
+  /* animation: float 6s ease-in-out infinite; */
+  box-shadow: rgba(0,0,0,0.2) 0 0 10px;
+}
+
+@media (max-width: 992px) {
+  .leftGraphic {
+    display: none;
+  }
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-10px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+
+.background {
+  position: absolute !important;
+  width: 100%;
+}
+.statsToolImg {
+  position: absolute;
+  top: 15%; 
+  left: 15%;
+  height: 70%;
+  width: 70% 
+}
+
+.singleData i {
+    float: left;
+    margin-right: 25px;
+    font-size: 18px; }
+  .singleData p {
+    font-weight: 300; }
+  .singleData .ti-paint-bucket {
+    color: #fca6a6; }
+  .singleData .ti-check-box {
+    color: #71beb4; }
+  .singleData .ti-ruler-pencil {
+    color: #ed92dd; }
+  
+    .staticsArea .areaHeading {
+      margin-bottom: 40px; }
+  
+      .areaHeading {
+        text-align: left; }
+        @media (min-width: 1199px) and (max-width: 1199px) {
+          .areaHeading {
+            padding-top: 30px; } }
+        @media (max-width: 991px) {
+          .areaHeading {
+            margin-top: 0; }
+            .areaHeading h4 br {
+              display: none; }
+            .areaHeading p br {
+              display: none; } }
+        .areaHeading h4 {
+          font-size: 45px;
+          color: #1d1d1d;
+          font-family: "Montserrat", sans-serif;
+          margin-bottom: 40px;
+          line-height: 58px; }
+        .areaHeading h6 {
+          font-size: 16px;
+          color: #333333;
+          font-weight: 400;
+          margin-bottom: 25px; }
+        .areaHeading p {
+          font-size: 14px;
+          font-family: "Montserrat", sans-serif;
+          color: #7f7f7f;
+          margin-bottom: 40px;
+          line-height: 27px;
+          padding-right: 65px; }
+        .areaHeading .mainBtn:hover {
+          border: 1px solid #f84b67; }
+      

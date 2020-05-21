@@ -1,0 +1,34 @@
+
+  
+  .areaHeading {
+    margin-bottom: 90px;
+    text-align: center;
+    margin-top: 15px; }
+    .areaHeading h3 {
+      font-size: 30px;
+      color: #1d1d1d;
+      position: relative; }
+    .areaHeading p {
+      font-size: 14px;
+      color: #7f7f7f; }
+    .areaHeading .line:after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 5px;
+      background: #f84b67;
+      left: 50%;
+      transform: translateX(-50%);
+      top: -16px; }
+    .areaHeading .line:before {
+      content: '';
+      position: absolute;
+      width: 100px;
+      height: 1px;
+      background: #f84b67;
+      left: 50%;
+      transform: translateX(-50%);
+      top: -14px; }
+  
+
+    

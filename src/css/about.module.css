@@ -1,0 +1,95 @@
+@media (max-width:767px){
+	.aboutArea .aboutContent {
+		padding-left: 0;
+    }
+}
+
+@media (max-width:991px){
+	.aboutArea::after {
+		display: none;
+    }
+}
+
+@media (max-width:575px){
+	.aboutArea .aboutContent h4 {
+		font-size: 24px;
+		line-height: 34px;
+    }
+}
+.aboutArea .aboutCard:nth-child(1) .singleAbout .aboutIcon:after {
+  background: #365462;
+}
+.aboutArea .aboutCard:nth-child(2) .singleAbout .aboutIcon:after {
+  background: #6fd1f2;
+}
+.aboutArea {
+    position: relative; }
+    .aboutArea .singleAbout {
+      text-align: left;
+      padding: 40px 0 0;
+      transition: all 300ms linear 0s; }
+      .aboutArea .singleAbout .aboutIcon {
+        width: 170px;
+        height: 95px;
+        text-align: center;
+        margin-bottom: 20px;
+        position: relative;
+        z-index: 1;
+        line-height: 112px; }
+        .aboutArea .singleAbout .aboutIcon:after {
+          content: '';
+          position: absolute;
+          height: 80px;
+          width: 80px;
+          background: #fcefed;
+          border-radius: 100%;
+          left: 0;
+          z-index: -1;
+          top: 0; }
+        .aboutArea .singleAbout .aboutIcon svg {
+          height: 80px;
+          width: 180px; }
+      .aboutArea .singleAbout .singleAboutContent h5 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #1d1d1d;
+        margin-bottom: 18px; }
+      .aboutArea .singleAbout .singleAboutContent p {
+        line-height: 27px;
+        font-size: 14px;
+        margin-bottom: 35px; }
+ 
+
+      .areaHeading {
+        text-align: left; }
+        @media (min-width: 1199px) and (max-width: 1199px) {
+          .areaHeading {
+            padding-top: 30px; } }
+        @media (max-width: 991px) {
+          .areaHeading {
+            margin-top: 0; }
+            .areaHeading h4 br {
+              display: none; }
+            .areaHeading p br {
+              display: none; } }
+        .areaHeading h4 {
+          font-size: 45px;
+          color: #1d1d1d;
+          font-family: "Montserrat", sans-serif;
+          margin-bottom: 40px;
+          line-height: 58px; }
+        .areaHeading h6 {
+          font-size: 16px;
+          color: #333333;
+          font-weight: 400;
+          margin-bottom: 25px; }
+        .areaHeading p {
+          font-size: 14px;
+          font-family: "Montserrat", sans-serif;
+          color: #7f7f7f;
+          margin-bottom: 40px;
+          line-height: 27px;
+          padding-right: 65px; }
+        .areaHeading .mainBtn:hover {
+          border: 1px solid #f84b67; }
+      

@@ -1,5 +1,5 @@
 import React from 'react'
 
 export default ({ children }) => (
-  <div style={{ maxWidth: 1180, margin: '0 auto' }}>{children}</div>
+  <div style={{ margin: 'auto', maxWidth: 1300, overflowX: 'hidden' }} >{children}</div>
 )

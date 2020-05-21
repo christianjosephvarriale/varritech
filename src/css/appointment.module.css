@@ -1,0 +1,28 @@
+.featureArea {
+    position: relative;
+    padding: 20px;
+  }
+.featureArea h4 {
+  font-size: 45px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 40px;
+  line-height: 58px; 
+  color: #fff;
+  margin-bottom: 18px; 
+  text-align: center;
+}
+.featureArea p {
+  line-height: 27px;
+  font-size: 14px;
+  margin-bottom: 35px;
+  color: #fff; 
+  text-align: center;
+}
+.featureContent {
+  z-index: 1000;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+      
