@@ -9,7 +9,11 @@ import { ReactComponent as Journey1 } from '../svg/journey1.svg'
 import { ReactComponent as Journey2 } from '../svg/journey2.svg'
 import anime from 'animejs/lib/anime.es.js';
 import { ReactComponent as Coding } from '../svg/coding.svg'
-const WOW = require('wow.js')
+try {
+    const WOW = require('wow.js')
+  } catch (e) {
+    console.log(e)
+}
 
 function a11yProps(index) {
     return {
