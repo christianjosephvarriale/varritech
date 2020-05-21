@@ -6,13 +6,13 @@ import Paper from '@material-ui/core/Paper';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import { ReactComponent as Banner } from '../svg/banner.svg'
 try {
-    const WOW = require('wow.js')
+    WOW = require('wow.js')
+    new WOW().init();
   } catch (e) {
     console.log(e)
 }
 
 export default () => {    
-    new WOW().init();
     return (
     <section className={styles.homeBannerArea}>
         <div className={`${styles.bannerInner} d-flex align-items-center`}>

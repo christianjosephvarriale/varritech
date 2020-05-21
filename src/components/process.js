@@ -11,6 +11,7 @@ import anime from 'animejs/lib/anime.es.js';
 import { ReactComponent as Coding } from '../svg/coding.svg'
 try {
     const WOW = require('wow.js')
+    new WOW().init();
   } catch (e) {
     console.log(e)
 }
