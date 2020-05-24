@@ -4,9 +4,12 @@ import styles from '../css/appointment.module.css'
 import EventIcon from '@material-ui/icons/Event';
 
 export default () => {
-    setTimeout(() => {
-        require('./animation');
-    })
+
+    if (typeof window !== `undefined`) {
+        setTimeout(() => {
+            require('./animation');
+        })
+    }
     return (
     <section style={{height: 500 }} className={`${styles.featureArea} bg_one`}>
         <div className={'container'}>
