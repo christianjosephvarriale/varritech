@@ -5,6 +5,7 @@ import Button from '@material-ui/core/Button';
 import Paper from '@material-ui/core/Paper';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import { ReactComponent as Banner } from '../svg/banner.svg'
+let WOW;
 try {
     WOW = require('wow.js')
     new WOW().init();
