@@ -45,7 +45,6 @@ function TabPanel(props) {
   }
 
 export default () => {
-    new WOW().init();
     const data = useStaticQuery(graphql`
     query statistics {
         stats1 : file(relativePath: {eq: "background/pattern1.png"}) {
