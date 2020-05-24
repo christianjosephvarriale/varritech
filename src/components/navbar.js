@@ -2,22 +2,28 @@ import React from 'react'
 import { Link } from 'gatsby'
 import '../css/bootstrap.css'
 import '../css/navbar.css'
-import $ from 'jquery'
 import AlarmOnIcon from '@material-ui/icons/AlarmOn';
 import Button from '@material-ui/core/Button';
 import { ReactComponent as Logo } from '../svg/logo.svg'
 
+let $;
+if (typeof window !== `undefined`) {
+  $ = require("jquery");
+}
+
 export default () => {
-    var nav_offset_top = $('header').height() + 50; 
-    if ( $('.header-area').length ){ 
-        $(window).scroll(function() {
-            var scroll = $(window).scrollTop();   
-            if (scroll >= nav_offset_top ) {
-                $(".header-area").addClass("navbar-fixed");
-            } else {
-                $(".header-area").removeClass("navbar-fixed");
-            }
-        });
+        if (typeof window !== `undefined`) {
+            var nav_offset_top = $('header').height() + 50; 
+            if ( $('.header-area').length ){ 
+                $(window).scroll(function() {
+                    var scroll = $(window).scrollTop();   
+                    if (scroll >= nav_offset_top ) {
+                        $(".header-area").addClass("navbar-fixed");
+                    } else {
+                        $(".header-area").removeClass("navbar-fixed");
+                    }
+                });
+        }
     };
     return ( <header className={'navbar-fixed header-area'}>	
         <div className={'main-menu'}>
