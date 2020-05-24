@@ -202,7 +202,7 @@ export default () => {
     return (
     <section id={'process'} className={styles.staticsArea}>
         <AppBar position="static">
-            <Tabs style={{backgroundColor: 'rgb(241, 145, 24)', justifyContent: 'space-evenly'}} orientation={window.innerWidth < 992 ? "vertical" : "horizontal"} variant="fullWidth" value={value} onChange={handleChange} aria-label="simple tabs example">
+            <Tabs style={{backgroundColor: 'rgb(241, 145, 24)', justifyContent: 'space-evenly'}} orientation={ (typeof window !== `undefined`) && (window.innerWidth < 992) ? "vertical" : "horizontal"} variant="fullWidth" value={value} onChange={handleChange} aria-label="simple tabs example">
             <Tab style={{fontFamily: 'Montserrat'}} label="Requirements & Education" {...a11yProps(0)} />
             <Tab style={{fontFamily: 'Montserrat'}} label="Design & Planning" {...a11yProps(1)} />
             <Tab style={{fontFamily: 'Montserrat'}} label="Development" {...a11yProps(2)} />
